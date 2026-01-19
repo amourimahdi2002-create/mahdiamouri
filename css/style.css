@@ -1,0 +1,159 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: sans-serif;
+    color: black;
+    background-color: black;
+    
+
+}
+.navbar {
+    background-color: black;
+    padding: 15px 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+
+
+.navbar-nav {
+    margin-left: auto;
+  
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+.begin {
+    text-align: center;
+    display: inline-flex;
+    padding-left: 20%;
+    margin: 0 auto;
+}
+
+.intro {
+    width: 50%;
+    text-align: left;
+    padding-right: 20px;
+    margin-top: 20%;
+}
+
+
+.intro p {
+    font-size: 20px;
+    color: white;
+
+}
+
+.profile-pic {
+    width: 350px;
+    height: auto;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-top: 10%;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    background-color: black;
+
+}
+
+.footer p {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    margin: 0 10px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+.contact {
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 15px;      
+  
+}
+h2 {
+    text-align: center;
+    color: blue;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.contact label {
+    display:flex;              
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color:white;
+}
+.contact li {
+    color: white;;
+}
+.quiz {
+    color: white;
+}
+.quiz h3{
+    color:blue;
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+}
+.results
+{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+}
+#sendBtn {
+    margin-left: 50%;
+}
+#restartBtn {
+    margin-left: 50%;
+}
+.quiz{
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 15px;      
+
+}
+.quiz input
+{
+    margin-right: 10px;
+}
